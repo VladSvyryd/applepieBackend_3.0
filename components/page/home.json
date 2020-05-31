@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_homes",
+  "info": {
+    "name": "home",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.intro"
+    }
+  }
+}

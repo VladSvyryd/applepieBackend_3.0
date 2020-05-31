@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_des",
+  "info": {
+    "name": "Home_de"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.intro"
+    },
+    "navigation_links": {
+      "type": "dynamiczone",
+      "components": [
+        "links.link"
+      ]
+    },
+    "known_by": {
+      "type": "dynamiczone",
+      "components": [
+        "links.link"
+      ]
+    },
+    "buttons": {
+      "type": "dynamiczone",
+      "components": [
+        "buttons.button"
+      ]
+    },
+    "social_links": {
+      "type": "dynamiczone",
+      "components": [
+        "links.link"
+      ]
+    },
+    "services": {
+      "type": "dynamiczone",
+      "components": [
+        "links.link"
+      ]
+    },
+    "first_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "second_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "third_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.images-grid"
+    },
+    "known_by_title": {
+      "type": "string"
+    },
+    "pagination": {
+      "type": "component",
+      "repeatable": false,
+      "component": "types.pagination"
+    },
+    "forth_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "fifth_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "reviews": {
+      "collection": "review"
+    },
+    "sixth_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "seventh_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    }
+  }
+}

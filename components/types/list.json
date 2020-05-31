@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_types_lists",
+  "info": {
+    "name": "list",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

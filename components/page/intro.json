@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_intros",
+  "info": {
+    "name": "intro",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "lang": {
+      "type": "string"
+    }
+  }
+}
