@@ -10,7 +10,7 @@
       "type": "string"
     },
     "background": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -21,7 +21,7 @@
       "required": false
     },
     "background_alternative": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -52,6 +52,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "types.image"
     }
   }
 }
