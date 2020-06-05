@@ -33,6 +33,23 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "pictures_de": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

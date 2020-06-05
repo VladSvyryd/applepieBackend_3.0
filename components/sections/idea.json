@@ -32,6 +32,23 @@
       "type": "component",
       "repeatable": false,
       "component": "buttons.button"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "images_en": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content_text_en": {
+      "type": "richtext"
     }
   }
 }

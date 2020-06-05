@@ -33,6 +33,34 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "url_en": {
+      "type": "string"
+    },
+    "image_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "image_alternative_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

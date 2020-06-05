@@ -1,14 +1,14 @@
 {
-  "collectionName": "components_page_homes",
+  "collectionName": "components_page_indices",
   "info": {
-    "name": "home",
-    "icon": "align-justify"
+    "name": "index",
+    "icon": "allergies"
   },
   "options": {},
   "attributes": {
     "intro": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "sections.intro"
     }
   }

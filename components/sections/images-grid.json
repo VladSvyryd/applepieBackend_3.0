@@ -19,6 +19,20 @@
     },
     "title": {
       "type": "string"
+    },
+    "images_en": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title_en": {
+      "type": "string"
     }
   }
 }
