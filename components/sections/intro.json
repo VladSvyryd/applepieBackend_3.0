@@ -40,7 +40,7 @@
     "description_en": {
       "type": "text"
     },
-    "pictures_de": {
+    "pictures_en": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
