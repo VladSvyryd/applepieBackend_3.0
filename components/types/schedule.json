@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_types_schedules",
+  "info": {
+    "name": "schedule",
+    "icon": "flushed"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "day_en": {
+      "type": "string"
+    },
+    "time": {
+      "type": "time"
+    },
+    "time_en": {
+      "type": "time"
+    }
+  }
+}

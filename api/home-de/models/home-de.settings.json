@@ -89,6 +89,18 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.idea"
+    },
+    "eighth_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.idea"
+    },
+    "contact": {
+      "type": "dynamiczone",
+      "components": [
+        "types.schedule",
+        "types.address"
+      ]
     }
   }
 }

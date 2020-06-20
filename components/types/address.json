@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_types_addresses",
+  "info": {
+    "name": "address",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "street_en": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "city_en": {
+      "type": "string"
+    },
+    "t_number": {
+      "type": "string"
+    },
+    "t_number_en": {
+      "type": "string"
+    }
+  }
+}
