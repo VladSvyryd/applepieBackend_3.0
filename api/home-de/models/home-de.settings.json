@@ -95,12 +95,10 @@
       "repeatable": false,
       "component": "sections.idea"
     },
-    "contact": {
-      "type": "dynamiczone",
-      "components": [
-        "types.schedule",
-        "types.address"
-      ]
+    "impressum": {
+      "type": "component",
+      "repeatable": false,
+      "component": "types.address"
     }
   }
 }

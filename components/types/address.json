@@ -29,6 +29,30 @@
     },
     "t_number_en": {
       "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "content_en": {
+      "type": "string"
+    },
+    "time_from": {
+      "type": "time"
+    },
+    "time_from_en": {
+      "type": "time"
+    },
+    "day": {
+      "type": "string"
+    },
+    "day_en": {
+      "type": "string"
+    },
+    "time_till": {
+      "type": "time"
+    },
+    "time_till_en": {
+      "type": "time"
     }
   }
 }
