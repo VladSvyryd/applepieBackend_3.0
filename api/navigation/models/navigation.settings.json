@@ -12,18 +12,6 @@
     "title": {
       "type": "string"
     },
-    "links_de": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
-      ]
-    },
-    "links_en": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
-      ]
-    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -67,6 +55,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "links": {
+      "type": "dynamiczone",
+      "components": [
+        "buttons.button"
+      ]
     }
   }
 }
