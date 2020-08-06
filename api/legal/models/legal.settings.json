@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "legals",
+  "info": {
+    "name": "legal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "agb": {
+      "type": "richtext"
+    }
+  }
+}

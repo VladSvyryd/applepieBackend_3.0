@@ -59,9 +59,6 @@
       "repeatable": false,
       "component": "sections.images-grid"
     },
-    "known_by_title": {
-      "type": "string"
-    },
     "pagination": {
       "type": "component",
       "repeatable": false,
