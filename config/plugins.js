@@ -9,5 +9,13 @@ module.exports = ({ env }) => ({
                 Bucket: 'applepie-strapi',
             },
         },
-    }
+    },
+    graphql: {
+        endpoint: '/graphql',
+        tracing: false,
+        shadowCRUD: true,
+        playgroundAlways: true,
+        depthLimit: 7,
+        amountLimit: 100,
+    },
 });
