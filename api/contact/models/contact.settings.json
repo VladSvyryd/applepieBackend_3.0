@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "budget_title": {
+      "type": "string"
+    },
+    "budget_title_en": {
+      "type": "string"
+    },
+    "date_title": {
+      "type": "string"
+    },
+    "date_title_en": {
+      "type": "string"
+    },
+    "message_title": {
+      "type": "string"
+    },
+    "message_title_en": {
+      "type": "string"
+    }
+  }
+}

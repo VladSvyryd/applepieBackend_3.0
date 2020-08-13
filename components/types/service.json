@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_types_services",
+  "info": {
+    "name": "service",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "group": {
+      "type": "enumeration",
+      "enum": [
+        "services"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "pipedrive_id": {
+      "type": "string"
+    }
+  }
+}

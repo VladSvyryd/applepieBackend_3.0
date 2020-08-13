@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "service": {
+      "type": "dynamiczone",
+      "components": [
+        "types.service"
+      ]
+    }
+  }
+}
