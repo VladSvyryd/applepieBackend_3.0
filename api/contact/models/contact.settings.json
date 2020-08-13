@@ -35,6 +35,30 @@
     },
     "message_title_en": {
       "type": "string"
+    },
+    "name_question": {
+      "type": "string"
+    },
+    "name_question_en": {
+      "type": "string"
+    },
+    "email_question": {
+      "type": "string"
+    },
+    "email_question_en": {
+      "type": "string"
+    },
+    "project_question": {
+      "type": "string"
+    },
+    "project_question_en": {
+      "type": "string"
+    },
+    "services_question": {
+      "type": "string"
+    },
+    "services_question_en": {
+      "type": "string"
     }
   }
 }
