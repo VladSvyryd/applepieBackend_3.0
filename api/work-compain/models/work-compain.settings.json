@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_compains",
+  "info": {
+    "name": "work_compain"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    },
+    "tags": {
+      "collection": "tag"
+    }
+  }
+}

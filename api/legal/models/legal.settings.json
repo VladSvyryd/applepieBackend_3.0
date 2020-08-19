@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "legals",
+  "info": {
+    "name": "legal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button"
+    }
+  }
+}
