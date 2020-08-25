@@ -9,7 +9,7 @@
     "text": {
       "type": "string"
     },
-    "function": {
+    "link": {
       "type": "string"
     },
     "subtext": {
@@ -18,7 +18,7 @@
     "text_en": {
       "type": "string"
     },
-    "function_en": {
+    "link_en": {
       "type": "string"
     },
     "subtext_en": {
