@@ -9,16 +9,10 @@
     "text": {
       "type": "string"
     },
-    "link": {
-      "type": "string"
-    },
     "subtext": {
       "type": "richtext"
     },
     "text_en": {
-      "type": "string"
-    },
-    "link_en": {
       "type": "string"
     },
     "subtext_en": {
@@ -50,6 +44,12 @@
         "start_project"
       ],
       "default": "slider"
+    },
+    "url": {
+      "type": "string"
+    },
+    "url_en": {
+      "type": "string"
     }
   }
 }
