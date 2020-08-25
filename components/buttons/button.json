@@ -31,6 +31,17 @@
         "BUTTON"
       ],
       "default": "BUTTON"
+    },
+    "link_type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "default": "external"
+    },
+    "slideTo": {
+      "type": "integer"
     }
   }
 }
