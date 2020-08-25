@@ -42,6 +42,14 @@
     },
     "slideTo": {
       "type": "integer"
+    },
+    "button_type": {
+      "type": "enumeration",
+      "enum": [
+        "slider",
+        "start_project"
+      ],
+      "default": "slider"
     }
   }
 }

@@ -14,34 +14,10 @@
       "repeatable": false,
       "component": "sections.intro"
     },
-    "navigation_links": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
-      ]
-    },
-    "known_by": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
-      ]
-    },
     "buttons": {
       "type": "dynamiczone",
       "components": [
         "buttons.button"
-      ]
-    },
-    "social_links": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
-      ]
-    },
-    "services": {
-      "type": "dynamiczone",
-      "components": [
-        "links.link"
       ]
     },
     "first_section": {
