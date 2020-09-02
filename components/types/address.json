@@ -53,6 +53,15 @@
     },
     "time_till_en": {
       "type": "time"
+    },
+    "lat": {
+      "type": "float"
+    },
+    "lng": {
+      "type": "float"
+    },
+    "map_style": {
+      "type": "json"
     }
   }
 }
