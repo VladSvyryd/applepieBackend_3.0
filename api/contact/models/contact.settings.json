@@ -90,16 +90,16 @@
     "budget_error_message_en": {
       "type": "string"
     },
-    "project_question_placeholder": {
+    "message_placeholder": {
       "type": "string"
     },
-    "project_question_placeholder_en": {
+    "message_placeholder_en": {
       "type": "string"
     },
-    "project_question_error": {
+    "message_error": {
       "type": "string"
     },
-    "project_question_error_en": {
+    "message_error_en": {
       "type": "string"
     },
     "email_question_error": {
