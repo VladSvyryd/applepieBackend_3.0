@@ -59,6 +59,48 @@
     },
     "services_question_en": {
       "type": "string"
+    },
+    "service_error_message": {
+      "type": "string"
+    },
+    "service_error_message_en": {
+      "type": "string"
+    },
+    "name_error_message": {
+      "type": "string"
+    },
+    "name_error_message_en": {
+      "type": "string"
+    },
+    "email_placeholder": {
+      "type": "string"
+    },
+    "email_placeholder_en": {
+      "type": "string"
+    },
+    "budget_placeholder": {
+      "type": "string"
+    },
+    "budget_placeholder_en": {
+      "type": "string"
+    },
+    "budget_error_message": {
+      "type": "string"
+    },
+    "budget_error_message_en": {
+      "type": "string"
+    },
+    "project_question_placeholder": {
+      "type": "string"
+    },
+    "project_question_placeholder_en": {
+      "type": "string"
+    },
+    "project_question_error": {
+      "type": "string"
+    },
+    "project_question_error_en": {
+      "type": "string"
     }
   }
 }
