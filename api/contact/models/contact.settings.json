@@ -101,6 +101,12 @@
     },
     "project_question_error_en": {
       "type": "string"
+    },
+    "email_question_error": {
+      "type": "string"
+    },
+    "email_question_error_en": {
+      "type": "string"
     }
   }
 }
