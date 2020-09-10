@@ -72,6 +72,11 @@
       "type": "component",
       "repeatable": false,
       "component": "types.address"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.meta"
     }
   }
 }
