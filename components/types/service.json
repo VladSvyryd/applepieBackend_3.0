@@ -20,6 +20,9 @@
     },
     "pipedrive_id": {
       "type": "string"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
