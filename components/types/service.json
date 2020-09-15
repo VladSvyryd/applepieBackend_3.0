@@ -23,6 +23,9 @@
     },
     "description": {
       "type": "string"
+    },
+    "description_en": {
+      "type": "string"
     }
   }
 }
